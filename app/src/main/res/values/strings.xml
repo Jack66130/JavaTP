@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TPJavaJack</string>
+    <string name="google_maps_activity_title">Google Maps</string>
+
+
+    <string name="coiffeur_details_activity_title">Détails du Coiffeur</string>
+
+
+
+
+</resources>

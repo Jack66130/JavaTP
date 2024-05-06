@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tpjavajack">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TPJavaJack"
+        tools:targetApi="31">
+
+        <!-- Activité principale -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activité pour Google Maps -->
+        <activity
+            android:name=".GoogleMapsActivity"
+            android:label="@string/google_maps_activity_title" />
+
+        <!-- Activité pour les détails du coiffeur -->
+        <activity
+            android:name=".CoiffeurDetailsActivity"
+            android:label="@string/coiffeur_details_activity_title" />
+
+        <!-- Clé API Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDZ89hZh1S4sABi7_Mfmw1g5PEKxE1P90w" />
+    </application>
+
+</manifest>

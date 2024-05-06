@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoiffeurDetailsActivity">
+
+    <TextView
+        android:id="@+id/nomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom du Coiffeur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/itineraireButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Itinéraire"
+        android:layout_below="@id/nomTextView"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"/>
+
+    <Button
+        android:id="@+id/boussoleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boussole"
+        android:layout_below="@id/nomTextView"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"/>
+
+    <Button
+        android:id="@+id/retourButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nomTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="165dp"
+        android:text="retour" />
+
+</RelativeLayout>

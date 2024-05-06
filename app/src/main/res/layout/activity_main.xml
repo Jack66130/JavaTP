@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue sur l'application des coiffeurs blagueurs!"
+        android:layout_centerInParent="true"/>
+
+    <!-- Bouton Liste -->
+    <Button
+        android:id="@+id/btnListe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liste"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Bouton Carte -->
+    <Button
+        android:id="@+id/btnCarte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carte"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Bouton Localisation -->
+    <Button
+        android:id="@+id/btnLocalisation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localiser"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"/>
+</RelativeLayout>
